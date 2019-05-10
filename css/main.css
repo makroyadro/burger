@@ -484,6 +484,11 @@ p {
   -ms-transform: translateX(-50%);
   transform: translateX(-50%); }
 
+.arrow-scroll__link {
+  display: block;
+  width: 29px;
+  height: 14px; }
+
 .arrow-scroll__icon {
   width: 29px;
   height: 14px;
