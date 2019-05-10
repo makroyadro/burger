@@ -370,8 +370,11 @@ p {
   margin: 0; }
 
 .wrapper {
-  height: 100%;
-  position: relative; }
+  position: relative;
+  width: 100%;
+  min-width: 960px;
+  min-height: 100%;
+  overflow: hidden; }
 
 .section {
   height: 100vh;
