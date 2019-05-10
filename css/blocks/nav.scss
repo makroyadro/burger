@@ -24,6 +24,12 @@
       display: none;
     }
   }
+
+  &:hover {
+    .nav__link {
+      border-bottom: 1px solid #fff;
+    }
+  }
 }
 
 .nav__link {
@@ -31,4 +37,6 @@
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
+  transition: .5s;
+  border-bottom: 1px solid transparent;
 }
