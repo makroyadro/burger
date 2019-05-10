@@ -24,19 +24,18 @@
       display: none;
     }
   }
-
-  &:hover {
-    .nav__link {
-      border-bottom: 1px solid #fff;
-    }
-  }
 }
 
 .nav__link {
+  display: inline-block;
   font-size: 13px;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
   transition: .5s;
   border-bottom: 1px solid transparent;
+
+  &:hover {
+      border-bottom: 1px solid #fff;
+  }
 }

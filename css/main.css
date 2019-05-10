@@ -472,10 +472,9 @@ p {
     margin-right: 0; }
     .nav__item:last-child::after {
       display: none; }
-  .nav__item:hover .nav__link {
-    border-bottom: 1px solid #fff; }
 
 .nav__link {
+  display: inline-block;
   font-size: 13px;
   color: #fff;
   text-decoration: none;
@@ -484,6 +483,8 @@ p {
   -o-transition: .5s;
   transition: .5s;
   border-bottom: 1px solid transparent; }
+  .nav__link:hover {
+    border-bottom: 1px solid #fff; }
 
 .arrow-scroll {
   position: absolute;
