@@ -1,0 +1,26 @@
+.btn {
+  display: inline-block;
+  padding: 11px 15px;
+  font-size: 13px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  transition: .3s;
+  
+  &--order {
+    background-color: $tomato;
+
+    &:hover {
+      background-color: #c1401e;
+    }
+  }
+
+  &--detail {
+    background-color: $dark-grey;
+
+    &:hover {
+      background-color: #1f2122;
+    }
+  }
+}

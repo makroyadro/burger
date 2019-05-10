@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+html, 
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Ubuntu";
+  font-size: 16px;
+  color: $dark-grey;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  margin: 0; 
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  li {
+    list-style: none;
+  }
+}
+
+p {
+  margin: 0;
+}
+
+.wrapper {
+  height: 100%;
+  position: relative;
+}
+
+.section {
+  height: 100vh;
+  position: relative;
+}
+
+.container {
+  max-width: 940px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+
+  &__hero {
+    justify-content: flex-start;
+  }
+}

@@ -1,0 +1,12 @@
+.arrow-scroll {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.arrow-scroll__icon {
+  width: 29px;
+  height: 14px;
+  fill: #fff;
+}

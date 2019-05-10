@@ -1,0 +1,20 @@
+$dark-grey: #2f3234;
+$orange: #f9b43b;
+$tomato: #e45028;
+
+@import "layout/normalize";
+@import "layout/fonts";
+@import "layout/layout";
+
+@import "blocks/hero";
+@import "blocks/header";
+@import "blocks/logo";
+@import "blocks/nav";
+@import "blocks/arrow-scroll";
+@import "blocks/best";
+@import "blocks/features";
+@import "blocks/reviews";
+
+@import "blocks/nav-sidebar";
+@import "blocks/section-title";
+@import "blocks/btn";

@@ -1,0 +1,17 @@
+.hero {
+  background: url("./../img/bg/texture.png") center / cover no-repeat;
+}
+
+.hero__content {
+  flex: .8;
+  display: flex;
+  align-items: center;
+}
+
+.hero__content-text {
+  font-family: "lifehack";
+  font-size: 65px;
+  line-height: 1;
+  color: #fff;
+}
+
