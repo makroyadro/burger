@@ -613,7 +613,7 @@ p {
   margin-bottom: 20px; }
 
 .nav-sidebar {
-  position: absolute;
+  position: fixed;
   top: 5rem;
   right: 3rem; }
 
