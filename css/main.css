@@ -351,9 +351,11 @@ html,
 body {
   height: 100%; }
 
+html {
+  font-size: 16px; }
+
 body {
   font-family: "Ubuntu";
-  font-size: 16px;
   color: #2f3234; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -416,7 +418,7 @@ p {
 
 .hero__content-text {
   font-family: "lifehack";
-  font-size: 65px;
+  font-size: 4.0625rem;
   line-height: 1;
   color: #fff; }
 
@@ -424,7 +426,7 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 12px; }
+  margin-top: 0.75rem; }
 
 .header__buttons {
   -webkit-box-flex: 1;
@@ -441,7 +443,7 @@ p {
   align-items: center; }
 
 .header__btn {
-  margin-left: 15px; }
+  margin-left: 0.9375rem; }
 
 .logo__pic {
   width: 92px;
@@ -459,7 +461,7 @@ p {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-right: 16px; }
+  margin-right: 1rem; }
   .nav__item::after {
     content: "";
     display: block;
@@ -467,7 +469,7 @@ p {
     height: 4px;
     border-radius: 50%;
     background: #fff;
-    margin-left: 16px; }
+    margin-left: 1rem; }
   .nav__item:last-child {
     margin-right: 0; }
     .nav__item:last-child::after {
@@ -475,7 +477,7 @@ p {
 
 .nav__link {
   display: inline-block;
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
@@ -488,7 +490,7 @@ p {
 
 .arrow-scroll {
   position: absolute;
-  bottom: 40px;
+  bottom: 2.5rem;
   left: 50%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -550,12 +552,12 @@ p {
 
 .features__title {
   font-family: "lifehack";
-  font-size: 24px;
+  font-size: 1.5rem;
   text-align: center;
   margin-bottom: 20px; }
 
 .features__desc {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 300;
   line-height: 1.71;
   text-align: center;
@@ -593,7 +595,7 @@ p {
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 3rem 2rem 2rem;
+  padding: 3.125rem 1.1875rem 1.25rem;
   color: #fff;
   background: rgba(0, 0, 0, 0.6);
   opacity: 0;
@@ -603,19 +605,19 @@ p {
 
 .reviews__title {
   font-family: "gagalin";
-  font-size: 14px;
-  margin-bottom: 25px; }
+  font-size: 0.875rem;
+  margin-bottom: 1.5625rem; }
 
 .reviews_desc {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 300;
   line-height: 1.71;
-  margin-bottom: 20px; }
+  margin-bottom: 1rem; }
 
 .nav-sidebar {
   position: fixed;
-  top: 5rem;
-  right: 3rem; }
+  top: 5.9375rem;
+  right: 3.3125rem; }
 
 .nav-sidebar__list {
   display: -webkit-box;
@@ -666,9 +668,9 @@ p {
 
 .section-title {
   font-family: "Gagalin";
-  font-size: 72px;
+  font-size: 4.5rem;
   line-height: 1;
-  margin-bottom: 45px; }
+  margin-bottom: 2.8125rem; }
   .section-title--color-orange {
     color: #f9b43b; }
   .section-title--color-black {
@@ -680,8 +682,8 @@ p {
 
 .btn {
   display: inline-block;
-  padding: 11px 15px;
-  font-size: 13px;
+  padding: 0.6875rem 0.9375rem;
+  font-size: 0.8125rem;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
