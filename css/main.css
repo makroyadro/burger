@@ -416,11 +416,17 @@ p {
   -ms-flex-align: center;
   align-items: center; }
 
+.hero__content-desc {
+  margin-top: 1.875rem; }
+
 .hero__content-text {
   font-family: "lifehack";
   font-size: 4.0625rem;
   line-height: 1;
   color: #fff; }
+
+.hero__content-img {
+  max-width: 451px; }
 
 .header {
   display: -webkit-box;
