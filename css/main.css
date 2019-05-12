@@ -406,9 +406,9 @@ p {
   background: url("./../img/bg/texture.png") center/cover no-repeat; }
 
 .hero__content {
-  -webkit-box-flex: .8;
-  -ms-flex: .8;
-  flex: .8;
+  -webkit-box-flex: 0.71;
+  -ms-flex: 0.71;
+  flex: 0.71;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -416,11 +416,23 @@ p {
   -ms-flex-align: center;
   align-items: center; }
 
+.hero__content-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 20px; }
+
+.hero__content-pic {
+  margin-right: 0.6875rem; }
+
 .hero__content-pic-img {
   max-width: 451px; }
 
 .hero__content-desc {
-  margin-top: 5rem;
+  margin-top: 4.1rem;
   font-weight: 500; }
 
 .hero__content-text {
@@ -523,7 +535,8 @@ p {
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-bottom: 1.8125rem; }
 
 .features {
   -webkit-box-flex: 1;
@@ -624,8 +637,8 @@ p {
 
 .nav-sidebar {
   position: fixed;
-  top: 5.9375rem;
-  right: 3.3125rem; }
+  top: 5.7375rem;
+  right: 3.0125rem; }
 
 .nav-sidebar__list {
   display: -webkit-box;
@@ -677,8 +690,7 @@ p {
 .section-title {
   font-family: "Gagalin";
   font-size: 4.5rem;
-  line-height: 1;
-  margin-bottom: 2.8125rem; }
+  line-height: 1; }
   .section-title--color-orange {
     color: #f9b43b; }
   .section-title--color-black {
@@ -687,6 +699,10 @@ p {
     color: #fff; }
   .section-title--centered {
     text-align: center; }
+  .section-title--hero {
+    margin-bottom: 1.6rem; }
+  .section-title--best {
+    margin-bottom: 3.375rem; }
 
 .btn {
   display: inline-block;
