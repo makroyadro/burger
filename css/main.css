@@ -416,6 +416,13 @@ p {
   -ms-flex-align: center;
   align-items: center; }
 
+.hero__content-pic-img {
+  max-width: 451px; }
+
+.hero__content-desc {
+  margin-top: 5rem;
+  font-weight: 500; }
+
 .hero__content-text {
   font-family: "lifehack";
   font-size: 4.0625rem;
@@ -478,13 +485,14 @@ p {
 .nav__link {
   display: inline-block;
   font-size: 0.8125rem;
+  font-weight: 500;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
+  border-bottom: 1px solid transparent;
   -webkit-transition: .5s;
   -o-transition: .5s;
-  transition: .5s;
-  border-bottom: 1px solid transparent; }
+  transition: .5s; }
   .nav__link:hover {
     border-bottom: 1px solid #fff; }
 
@@ -595,7 +603,7 @@ p {
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 3.125rem 1.1875rem 1.25rem;
+  padding: 3.125rem 1.1875rem;
   color: #fff;
   background: rgba(0, 0, 0, 0.6);
   opacity: 0;
@@ -612,7 +620,7 @@ p {
   font-size: 0.875rem;
   font-weight: 300;
   line-height: 1.71;
-  margin-bottom: 1rem; }
+  margin-bottom: 1.0625rem; }
 
 .nav-sidebar {
   position: fixed;
