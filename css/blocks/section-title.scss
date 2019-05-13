@@ -1,8 +1,8 @@
 .section-title {
   font-family: "Gagalin";
-  font-size: 72px;
+  font-size: 4.5rem;
   line-height: 1;
-  margin-bottom: 45px;
+  // margin-bottom: 2.8125rem;
 
   &--color-orange {
     color: $orange;
@@ -18,5 +18,13 @@
 
   &--centered {
     text-align: center;
+  }
+
+  &--hero {
+    margin-bottom: 1.6rem;;
+  }
+
+  &--best {
+    margin-bottom: 3.375rem;
   }
 }

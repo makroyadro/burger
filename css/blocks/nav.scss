@@ -5,7 +5,7 @@
 .nav__item{
   display: flex;
   align-items: center;
-  margin-right: 16px;
+  margin-right: 1rem;
 
   &::after {
     content: "";
@@ -14,7 +14,7 @@
     height: 4px;
     border-radius: 50%;
     background: #fff;
-    margin-left: 16px;
+    margin-left: 1rem;
   }
 
   &:last-child {
@@ -28,12 +28,13 @@
 
 .nav__link {
   display: inline-block;
-  font-size: 13px;
+  font-size: 0.8125rem;
+  font-weight: 500;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
-  transition: .5s;
   border-bottom: 1px solid transparent;
+  transition: .5s;
 
   &:hover {
       border-bottom: 1px solid #fff;
