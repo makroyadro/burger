@@ -1,0 +1,37 @@
+.footer {
+  padding-top: 0.625rem; 
+  padding-bottom: 0.75rem; 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000 url("./../img/bg/bg-footer.png") repeat-x;
+}
+
+.footer__contacts {
+  font-style: normal;
+  font-size: 0.875rem;
+}
+
+.footer__address {
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.footer__phone {
+  padding-left: 1.25rem;
+  color: $tomato;
+  font-weight: bold;
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    width: 12px;
+    height: 11px;
+    background: url("./../img/phone.png") no-repeat
+  }
+}
