@@ -5,25 +5,25 @@
   top: 0;
   right: 0;
   bottom: 0;
-  padding: 110px 100px 0 100px ;
+  padding: 6rem 5rem 0 6.25rem;
   color: #fff;
   font-size: 0.875rem;
 }
 
 .team-accordeon__item {
-  padding-left: 25px;
+  padding-left: 1.1875rem;
   position: relative;
   &:not(:last-child) {
-    margin-bottom: 35px;
+    margin-bottom: 2rem;
   }
 
   &::before {
     content: "";
     display: block;
     position: absolute;
-    border-top: 9px solid $orange;
-    border-right: 7px solid transparent;
-    border-left: 7px solid transparent;
+    border-top: 7px solid #f9b43b;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
     top: 5px;
     left: 0;
   }
@@ -36,7 +36,7 @@
 
     .team-accordeon__desc {
       height: auto;
-      margin-top: 1.125rem;
+      margin-top: 0.8125rem;
     }
 
     .team-accordeon__title {
@@ -49,6 +49,7 @@
 .team-accordeon__title {
   text-transform: uppercase;
   font-family: "Gagalin";
+  cursor: pointer;
 } 
 
 .team-accordeon__desc {
