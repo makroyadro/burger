@@ -46,10 +46,15 @@
 
 } 
 
+.team-accordeon__link {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+}
+
 .team-accordeon__title {
   text-transform: uppercase;
   font-family: "Gagalin";
-  cursor: pointer;
 } 
 
 .team-accordeon__desc {
