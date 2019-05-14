@@ -3,38 +3,32 @@
   font-size: 4.5rem;
   line-height: 1;
   // margin-bottom: 2.8125rem;
-
-  &--color-orange {
+  
+  &--hero {
+    margin-bottom: 1.6rem;;
+    color: $orange;
+  }
+  
+  &--best {
+    margin-bottom: 3.375rem;
+    text-align: center;
+  }
+  
+  &--team {
+    margin-bottom: 2.9375rem;
     color: $orange;
   }
 
-  &--color-black {
-    color: $dark-grey;
-  }
-
-  &--color-white {
-    color: #fff;
-  }
-
-  &--centered {
-    text-align: center;
-  }
-
-  &--hero {
-    margin-bottom: 1.6rem;;
-  }
-
-  &--best {
-    margin-bottom: 3.375rem;
-  }
-
   &--menu {
+    color: #fff;
     position: absolute;
     top: 15%;
     left: 7%;
   }
-
-  &--team {
-    margin-bottom: 2.9375rem;
+  
+  &--order {
+    margin-bottom: 2.75rem;
+    color: $orange;
+    text-align: center;
   }
 }

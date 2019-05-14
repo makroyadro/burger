@@ -370,12 +370,102 @@
       </ul>
     </section>
 
+    <section class="section order">
+      <div class="container">
+        <h2 class="section-title section-title--order">Закажите доставку</h2>
+        <form class="form" action="" method="POST">
+  
+          <div class="form__col">
+
+            <div class="form__row">
+              <label for="" class="form__block">
+                <h4 class="form__title">Имя</h4>
+                <input class="form__field" type="text" name="name" id="name">
+              </label>
+              <label for="" class="form__block">
+                <h4 class="form__title">Телефон</h4>
+                <input class="form__field"type="text" name="phone" id="phone">
+              </label>
+            </div>
+
+            <div class="form__row">
+              <label for="" class="form__block">
+                <h4 class="form__title">Улица</h4>
+                <input class="form__field"type="text" name="street" id="street">
+              </label>
+            </div>
+
+            <div class="form__row">
+              <label for="" class="form__block">
+                <h4 class="form__title">Дом</h4>
+                <input class="form__field"type="text" name="street" id="street">
+              </label>
+              <label for="" class="form__block">
+                <h4 class="form__title">Корпус</h4>
+                <input class="form__field"type="text" name="street" id="street">
+              </label>
+              <label for="" class="form__block">
+                <h4 class="form__title">Квартира</h4>
+                <input class="form__field"type="text" name="street" id="street">
+              </label>
+              <label for="" class="form__block">
+                <h4 class="form__title">Этаж</h4>
+                <input class="form__field"type="text" name="street" id="street">
+              </label>
+            </div>
+            
+          </div>
+
+          <div class="form__col">
+
+            <div class="form__row">
+              <label class="form__block">
+                <h4 class="form__title">Комментарий</h4>
+                <textarea name="" id="" cols="30" rows="10" class="form__textarea"></textarea>
+              </label>
+            </div>
+
+            <div class="form__row">
+              <label class="form__radio">
+                <input type="radio" name="radio" id="" class="form__radio-btn">
+                <div class="form__radio-custom"></div>
+                <h4 class="form__title">Потребуется сдача</h4>
+              </label>
+              <label class="form__radio">
+                <input type="radio" name="radio" id="" class="form__radio-btn">
+                <div class="form__radio-custom"></div>
+                <h4 class="form__title">Оплата по карте</h4>
+              </label>
+            </div>
+            
+            <div class="form__row">
+              <label class="form__checkbox">
+                <input type="checkbox" name="" id="" class="form__checkbox-btn">
+                <div class="form__checkbox-custom"></div>
+                <h4 class="form__title">Не перезванивать</h4>
+              </label>
+            </div>
+
+            <div class="form__row">
+              <input class="btn btn--order" type="submit" value="Заказать">
+              <input class="btn btn--reset" type="reset" value="Очистить">
+            </div>
+          </div>
+
+        </form>
+      </div>
+    </section>
+
     <section class="section maps">
       <footer class="footer">
         <div class="container container__footer">
           <address class="footer__contacts">
             <div class="footer__address">Санкт-Петербург, ул.Бабушкина, д.12/1, 15</div>
-            <a class="footer__phone">+7 (812) 377-13-77</a>
+            <a href="tell:78123771377" class="footer__phone">
+              <svg class="footer__phone-icon">
+                <use xlink:href="./img/svg-sprite.svg#phone"></use>
+              </svg>
+              <div class="footer__phone-number"></div>+7 (812) 377-13-77</a>
           </address>
           <div class="footer__social social">
             <ul class="social__list">

@@ -1,0 +1,130 @@
+.form {
+  display: flex;
+  // justify-content: space-between;
+}
+
+.form__col {
+  display: flex;
+  flex-direction: column;
+  widows: 50%;
+  &:not(:last-child) {
+    margin-right: 1.25rem;
+  }
+}
+
+.form__row {
+  display: flex;
+  &:not(:last-child) {
+    margin-bottom: 1.1875rem;
+  }
+}
+
+.form__block {
+  flex: 1;
+    &:not(:last-child) {
+      margin-right: 1.25rem;
+    }
+}
+
+.form__title {
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 0.4375rem;
+}
+
+.form__field, .form__textarea {
+  padding: 0.5625rem 1.3125rem;
+  font-size: 0.875rem;
+  color: $dark-grey;
+  outline: none;
+  border: solid 1px #d1cfcb;
+  border-radius: 5px;
+
+  &:focus {
+    border-color: $orange;
+  }
+}
+
+.form__field {
+  width: 100%;
+  
+}
+
+.form__textarea {
+  width: 460px;
+  height: 110px;
+  resize: none;
+}
+
+.form__radio {
+  display: flex;
+  // flex-align: center;
+
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
+}
+
+.form__radio-btn {
+  display: none;
+
+  &:checked + .form__radio-custom {
+    &::after {
+      display: block;
+    }
+  }
+}
+
+.form__radio-custom {
+  display: block;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  background: #fff;
+  border-radius: 50%; 
+  position: relative;
+
+  &::after {
+    content: "";
+    display: none;
+    width: 7px;
+    height: 7px;
+    background: #e35028;
+    border-radius: 50%; 
+    position: absolute;
+    top: 4px;
+    left: 4px;
+  }
+}
+
+.form__checkbox {
+  display: flex;
+}
+
+.form__checkbox-btn {
+  display: none;
+  &:checked + .form__checkbox-custom::after {
+    display: block;
+  }
+} 
+.form__checkbox-custom {
+  display: block;
+  position: relative;
+  width: 16px;
+  height: 15px;
+  margin-right: 9px;
+  background-color: #fff;
+
+  &::after {
+    content: "";
+    display: none;
+    width: 11px;
+    height: 9px;
+    background: url("./../img/checkbox.png") center no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+}

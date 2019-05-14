@@ -5,7 +5,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: #000 url("./../img/bg/bg-footer.png") repeat-x;
+  background: #000 url("./../img/bg/bg-footer.png") repeat;
 }
 
 .footer__contacts {
@@ -20,18 +20,20 @@
 }
 
 .footer__phone {
-  padding-left: 1.25rem;
+  display: flex;
+  align-items: center;
   color: $tomato;
   font-weight: bold;
-
-  &::after {
-    content: "";
-    display: block;
-    position: absolute;
-    bottom: 3px;
-    left: 0;
-    width: 12px;
-    height: 11px;
-    background: url("./../img/phone.png") no-repeat
+  text-decoration: none;
+  
+  &:hover {
+    text-decoration: underline;
   }
+}
+
+.footer__phone-icon {
+  width: 12px;
+  height: 11px;
+  margin-right: 10px;
+  fill: $tomato;
 }
