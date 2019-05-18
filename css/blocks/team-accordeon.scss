@@ -8,24 +8,21 @@
   padding: 6rem 5rem 0 6.25rem;
   color: #fff;
   font-size: 0.875rem;
+  
+  @include tablets {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 29.2%;
+  }
 }
 
 .team-accordeon__item {
-  padding-left: 1.1875rem;
   position: relative;
   &:not(:last-child) {
     margin-bottom: 2rem;
-  }
-
-  &::before {
-    content: "";
-    display: block;
-    position: absolute;
-    border-top: 7px solid #f9b43b;
-    border-right: 4px solid transparent;
-    border-left: 4px solid transparent;
-    top: 5px;
-    left: 0;
   }
 
   &--active {
@@ -44,28 +41,61 @@
     }
   }
 
+  @include tablets {
+    text-align: center;
+  }
+
 } 
 
 .team-accordeon__link {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   color: #fff;
   text-decoration: none;
+  position: relative;
+
+  &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      border-top: 7px solid #f9b43b;
+      border-right: 4px solid transparent;
+      border-left: 4px solid transparent;
+      left: -14px;
+    }
+
+    @include tablets {
+      display: inline-flex;
+    }
 }
 
 .team-accordeon__title {
   text-transform: uppercase;
   font-family: "Gagalin";
+
+  @include tablets {
+    font-size: 1.5625rem;
+  }
 } 
 
 .team-accordeon__desc {
   display: flex;
-  align-items: stretch;
   height: 0;
   overflow: hidden;
+
+  @include tablets {
+    flex-direction: column;
+    align-items: center;
+    // text-align: center;
+  }
 } 
 
 .team-accordeon__pic {
   margin-right: 20px;
+
+  @include tablets {
+    margin-right: 0;
+  }
 } 
 
 .team-accordeon__avatar {
@@ -80,7 +110,7 @@
 .team-accordeon__text-desc {
   font-weight: 300;
   line-height: 1.71;
-  max-width: 240px;
+  // max-width: 240px;
 }
 
 

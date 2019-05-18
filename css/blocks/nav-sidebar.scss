@@ -1,8 +1,12 @@
 .nav-sidebar {
   position: fixed;
-  top: 5.7375rem;
-  right: 3.0125rem;
+  top: 5.5625rem;
+  right: 2.6875rem;
   z-index: 20;
+
+  @include tablets {
+    display: none;
+  }
 }
 .nav-sidebar__list {
   display: flex;

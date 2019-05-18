@@ -6,13 +6,19 @@
 
 .reviews__item {
   position: relative;
-  width: 25%;
-  height: 50%;
+  width: calc(100% / 4);
+  height: calc(100% / 2);
 
   &:hover {
     .reviews__hover {
       opacity: 1;
     }
+  }
+
+  @include tablets {
+    width: calc(100% / 2);
+    height: calc(100% / 4);
+    text-align: center;
   }
 }
 
@@ -33,17 +39,26 @@
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 3.125rem 1.1875rem;
+  padding: 3.125rem 1.1875rem 0;
   color: #fff;
   background: rgba(000, 000, 000, .6);
   opacity: 0;
   transition: opacity .3s;
+
+  @include tablets {
+    padding: 2.1875rem 14% 0;
+  }
 }
 
 .reviews__title {
   font-family: "gagalin";
   font-size: 0.875rem;
   margin-bottom: 1.1625rem;
+  
+  @include phones {
+    font-size: 1.5rem;
+    margin-bottom: 1.8125rem;
+  }
 }
 
 .reviews_desc {
@@ -51,4 +66,8 @@
   font-weight: 300;
   line-height: 1.71;
   margin-bottom: 1.0625rem;
+  
+    @include phones {
+      display: none;
+    }
 }

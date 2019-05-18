@@ -49,6 +49,9 @@
               </ul>
             </nav>
             <a href="#" class="btn btn--order header__btn">Заказать</a>
+            <a class="hamburger-menu-link" href="">
+              <div class="hamburger-menu-link__bars"></div>
+            </a>
           </div>
         </header>
 
@@ -75,50 +78,61 @@
     </section>
 
     <section class="section best">
-      <div class="container">
+      <div class="container container__best">
 
         <h2 class="section-title section-title--best section-title--centered">Мы лучшие</h2>
+
         <ul class="best__list">
+
           <li class="best__item features">
             <div class="features__pic">
               <svg class="features__icon features__icon--meat">
                 <use xlink:href="./img/svg-sprite.svg#meat"></use>
               </svg>
             </div>
-            <h3 class="features__title">100% свежее мясо</h3>
             <div class="features__desc">
-              <p>
-                Драма представляет собой деструктивный цикл. Анапест представляет собой анапест. Ямб неравномерен.
-              </p>
+              <h3 class="features__title">100% свежее мясо</h3>
+              <div class="features__desc-text">
+                <p>
+                  Драма представляет собой деструктивный цикл. Анапест представляет собой анапест. Ямб неравномерен.
+                </p>
+              </div>
             </div>
           </li>
+
           <li class="best__item features">
             <div class="features__pic">
               <svg class="features__icon features__icon--hand">
                 <use xlink:href="./img/svg-sprite.svg#hand"></use>
               </svg>
             </div>
-            <h3 class="features__title">Ручная сборка</h3>
             <div class="features__desc">
-              <p>
-                Драма представляет собой деструктивный цикл. Анапест представляет собой анапест. Первое полустишие
-                притягивает сюжетный реформаторский пафос.
-              </p>
+              <h3 class="features__title">Ручная сборка</h3>
+              <div class="features__desc-text">
+                <p>
+                  Драма представляет собой деструктивный цикл. Анапест представляет собой анапест. Первое полустишие
+                  притягивает сюжетный реформаторский пафос.
+                </p>
+              </div>
             </div>
           </li>
+
           <li class="best__item features">
             <div class="features__pic">
               <svg class="features__icon features__icon--natural">
                 <use xlink:href="./img/svg-sprite.svg#natural"></use>
               </svg>
             </div>
-            <h3 class="features__title">Натуральные ингредиенты</h3>
             <div class="features__desc">
-              <p>
-                Драма представляет собой деструктивный цикл. Анапест представляет собой анапест.
-              </p>
+              <h3 class="features__title">Натуральные ингредиенты</h3>
+              <div class="features__desc-text">
+                <p>
+                  Драма представляет собой деструктивный цикл. Анапест представляет собой анапест.
+                </p>
+              </div>
             </div>
           </li>
+
         </ul>
 
       </div>
@@ -425,7 +439,7 @@
               </label>
             </div>
 
-            <div class="form__row">
+            <div class="form__row form__row-btn">
               <label class="form__radio">
                 <input type="radio" name="radio" id="" class="form__radio-btn">
                 <div class="form__radio-custom"></div>
@@ -438,7 +452,7 @@
               </label>
             </div>
             
-            <div class="form__row">
+            <div class="form__row form__row-btn">
               <label class="form__checkbox">
                 <input type="checkbox" name="" id="" class="form__checkbox-btn">
                 <div class="form__checkbox-custom"></div>
@@ -446,7 +460,7 @@
               </label>
             </div>
 
-            <div class="form__row">
+            <div class="form__row form__row-btn">
               <input class="btn btn--order" type="submit" value="Заказать">
               <input class="btn btn--reset" type="reset" value="Очистить">
             </div>
@@ -465,7 +479,8 @@
               <svg class="footer__phone-icon">
                 <use xlink:href="./img/svg-sprite.svg#phone"></use>
               </svg>
-              <div class="footer__phone-number"></div>+7 (812) 377-13-77</a>
+              <div class="footer__phone-number">+7 (812) 377-13-77</div>
+            </a>
           </address>
           <div class="footer__social social">
             <ul class="social__list">

@@ -8,9 +8,26 @@
   background: #000 url("./../img/bg/bg-footer.png") repeat;
 }
 
+.footer__contacts,
+.footer__social {
+  width: 50%;
+
+  @include phones {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+  }
+}
+
 .footer__contacts {
   font-style: normal;
   font-size: 0.875rem;
+
+  @include phones {
+    margin-bottom: 1.125rem;
+    font-size: 0.875rem;
+  }
 }
 
 .footer__address {

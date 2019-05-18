@@ -4,14 +4,27 @@
   line-height: 1;
   // margin-bottom: 2.8125rem;
   
+  @include phones {
+    font-size: 3.125rem;
+  }
+
   &--hero {
-    margin-bottom: 1.6rem;;
+    margin-bottom: 1.6rem;
     color: $orange;
+
+    @include phones {
+      font-size: 4.5rem;
+    }
   }
   
   &--best {
     margin-bottom: 3.375rem;
     text-align: center;
+
+    @include phones {
+      font-size: 3.5rem;
+      margin-bottom: 2.375rem;
+    }
   }
   
   &--team {
