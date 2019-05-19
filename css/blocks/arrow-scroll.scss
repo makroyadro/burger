@@ -1,18 +1,18 @@
 .arrow-scroll {
   position: absolute;
-  bottom: 2.5rem;
+  bottom: rem(40px);
   left: 50%;
   transform: translateX(-50%);
 }
 
 .arrow-scroll__link {
   display: block;
-  width: 29px;
-  height: 14px;
+  width: rem(29px);
+  height: rem(14px);
 }
 
 .arrow-scroll__icon {
-  width: 29px;
-  height: 14px;
+  width: rem(29px);
+  height: rem(14px);
   fill: #fff;
 }

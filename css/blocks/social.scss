@@ -1,5 +1,3 @@
-.social {} 
-
 .social__list {
   display: flex;
   justify-content: flex-end;
@@ -7,7 +5,7 @@
 
 .social__item {
   &:not(:last-child) {
-    margin-right: 1.25rem;
+    margin-right: rem(20px);
   }
 
   &:hover {
@@ -21,7 +19,7 @@
 }
 .social__icon {
   transition: .3s;
-  width: 20px;
-  height: 20px;
+  width: rem(20px);
+  height: rem(20px);
   fill: rgba($color: #fff, $alpha: .5)
 }

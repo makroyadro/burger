@@ -1,11 +1,11 @@
 .hamburger-menu-link {
   vertical-align: middle;
   position: relative;
-  height: 22px;
+  height: rem(22px);
   align-items: center;
-  margin-left: 1.9375rem;
+  margin-left: rem(31px);
   display: none;
-  margin-right: 0.5rem;
+  margin-right: rem(8px);
   @include tablets {
     display: flex;
   }
@@ -16,8 +16,8 @@
   &::before,
   &::after {
    background: #fff;
-   width: 24px;
-   height: 5px;
+   width: rem(24px);
+   height: rem(5px);
    border-radius: 3px;
  }
 

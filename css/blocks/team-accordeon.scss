@@ -5,9 +5,9 @@
   top: 0;
   right: 0;
   bottom: 0;
-  padding: 6rem 5rem 0 6.25rem;
+  padding: rem(96px) rem(80px) 0 rem(100px);
   color: #fff;
-  font-size: 0.875rem;
+  font-size: rem(14px);
   
   @include tablets {
     width: 100%; 
@@ -17,12 +17,16 @@
     align-items: center;
     padding: 0 29.2%;
   }
+
+  @include phones {
+    padding: 0 18.8%;
+  }
 }
 
 .team-accordeon__item {
   position: relative;
   &:not(:last-child) {
-    margin-bottom: 2rem;
+    margin-bottom: rem(32px);
   }
 
   &--active {
@@ -33,7 +37,7 @@
 
     .team-accordeon__desc {
       height: auto;
-      margin-top: 0.8125rem;
+      margin-top: rem(13px);
     }
 
     .team-accordeon__title {
@@ -61,7 +65,7 @@
       border-top: 7px solid #f9b43b;
       border-right: 4px solid transparent;
       border-left: 4px solid transparent;
-      left: -14px;
+      left: rem(-14px);
     }
 
     @include tablets {
@@ -74,7 +78,7 @@
   font-family: "Gagalin";
 
   @include tablets {
-    font-size: 1.5625rem;
+    font-size: rem(25px);
   }
 } 
 
@@ -91,10 +95,11 @@
 } 
 
 .team-accordeon__pic {
-  margin-right: 20px;
+  margin-right: rem(20px);
 
   @include tablets {
     margin-right: 0;
+    margin-bottom: rem(20px);
   }
 } 
 
@@ -104,7 +109,7 @@
 
 .team-accordeon__heading {
   font-weight: bold;
-  margin-bottom: 1rem;
+  margin-bottom: rem(16px);
 } 
 
 .team-accordeon__text-desc {

@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  margin-top: 0.75rem;
+  margin-top: rem(12px);
 }
 
 .header__buttons {
@@ -8,9 +8,9 @@
   display: flex;
   justify-content: flex-end;
   align-items: center; 
-  margin-top: -8px;
+  margin-top: rem(-8px);
 }
 
 .header__btn {
-  margin-left: 0.9375rem;
+  margin-left: rem(15px);
 }

@@ -9,14 +9,14 @@
   justify-content: center;
 
   @include phones {
-    flex: 0.87
+    flex: 0.87;
   }
 }
 
 .hero__content-wrap {
   display: flex;
   align-items: center;
-  padding-left: 20px;
+  padding-left: rem(20px);
   
   @include tablets {
     flex-direction: column;
@@ -25,7 +25,7 @@
 }
 
 .hero__content-pic {
-  margin-right: 0.6875rem;
+  margin-right: rem(11px);
   
   @include tablets {
     margin-right: 0;
@@ -41,23 +41,23 @@
 }
 
 .hero__content-desc {
-  margin-top: 4.1rem;
+  margin-top: rem(65.6px);
   font-weight: 500;
 
   @include tablets {
-    margin-top: 2.5rem;
+    margin-top: rem(40px);
     text-align: center;
   }
 }
 
 .hero__content-text {
   font-family: "lifehack";
-  font-size: 4.0625rem;
+  font-size: rem(65px);
   line-height: 1;
   color: #fff;
 
   @include phones {
-    font-size: 3.375rem;
+    font-size: rem(54px);
   }
 }
 

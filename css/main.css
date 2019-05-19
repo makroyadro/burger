@@ -454,7 +454,7 @@ p {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-left: 20px; }
+  padding-left: 1.25rem; }
   @media screen and (max-width: 768px) {
     .hero__content-wrap {
       -webkit-box-orient: vertical;
@@ -514,14 +514,14 @@ p {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-top: -8px; }
+  margin-top: -0.5rem; }
 
 .header__btn {
   margin-left: 0.9375rem; }
 
 .logo__pic {
-  width: 92px;
-  height: 69px; }
+  width: 5.75rem;
+  height: 4.3125rem; }
 
 @media screen and (max-width: 768px) {
   .nav {
@@ -543,8 +543,8 @@ p {
   .nav__item::after {
     content: "";
     display: block;
-    width: 4px;
-    height: 4px;
+    width: 0.25rem;
+    height: 0.25rem;
     border-radius: 50%;
     background: #fff;
     margin-left: 1rem; }
@@ -570,7 +570,7 @@ p {
 .hamburger-menu-link {
   vertical-align: middle;
   position: relative;
-  height: 22px;
+  height: 1.375rem;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -585,8 +585,8 @@ p {
 
 .hamburger-menu-link__bars, .hamburger-menu-link__bars::before, .hamburger-menu-link__bars::after {
   background: #fff;
-  width: 24px;
-  height: 5px;
+  width: 1.5rem;
+  height: 0.3125rem;
   border-radius: 3px; }
 
 .hamburger-menu-link__bars::before, .hamburger-menu-link__bars::after {
@@ -610,12 +610,12 @@ p {
 
 .arrow-scroll__link {
   display: block;
-  width: 29px;
-  height: 14px; }
+  width: 1.8125rem;
+  height: 0.875rem; }
 
 .arrow-scroll__icon {
-  width: 29px;
-  height: 14px;
+  width: 1.8125rem;
+  height: 0.875rem;
   fill: #fff; }
 
 .best {
@@ -679,8 +679,8 @@ p {
       margin-right: 1.875rem; } }
 
 .features__icon {
-  width: 97px;
-  height: 89px; }
+  width: 6.0625rem;
+  height: 5.5625rem; }
   .features__icon--meat {
     fill: #e25028; }
   .features__icon--hand {
@@ -700,7 +700,7 @@ p {
   margin-bottom: 1.25rem; }
   @media screen and (max-width: 480px) {
     .features__title {
-      font-size: 1.5938rem;
+      font-size: 1.59375rem;
       font-weight: 500; } }
 
 .features__desc-text {
@@ -805,6 +805,9 @@ p {
       -ms-flex-align: center;
       align-items: center;
       padding: 0 29.2%; } }
+  @media screen and (max-width: 480px) {
+    .team-accordeon {
+      padding: 0 18.8%; } }
 
 .team-accordeon__item {
   position: relative; }
@@ -840,7 +843,7 @@ p {
     border-top: 7px solid #f9b43b;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent;
-    left: -14px; }
+    left: -0.875rem; }
   @media screen and (max-width: 768px) {
     .team-accordeon__link {
       display: -webkit-inline-box;
@@ -871,10 +874,11 @@ p {
       align-items: center; } }
 
 .team-accordeon__pic {
-  margin-right: 20px; }
+  margin-right: 1.25rem; }
   @media screen and (max-width: 768px) {
     .team-accordeon__pic {
-      margin-right: 0; } }
+      margin-right: 0;
+      margin-bottom: 1.25rem; } }
 
 .team-accordeon__avatar {
   border-radius: 50%; }
@@ -952,11 +956,14 @@ p {
 .menu-accordeon__desc {
   width: 0;
   overflow: hidden;
-  max-width: 540px;
+  max-width: 33.75rem;
   color: #fff;
   font-size: 0.875rem;
   line-height: 1.71;
   background: rgba(47, 50, 52, 0.9); }
+  @media screen and (max-width: 480px) {
+    .menu-accordeon__desc {
+      max-width: 20.0625rem; } }
 
 .maps {
   background: url("./../img/bg/bg-maps.png") center/cover no-repeat; }
@@ -999,7 +1006,7 @@ p {
 .footer__address {
   color: #fff;
   font-weight: 300;
-  margin-bottom: 10px; }
+  margin-bottom: 0.625rem; }
 
 .footer__phone {
   display: -webkit-box;
@@ -1015,9 +1022,9 @@ p {
     text-decoration: underline; }
 
 .footer__phone-icon {
-  width: 12px;
-  height: 11px;
-  margin-right: 10px;
+  width: 0.75rem;
+  height: 0.6875rem;
+  margin-right: 0.625rem;
   fill: #e45028; }
 
 .social__list {
@@ -1041,8 +1048,8 @@ p {
   -webkit-transition: .3s;
   -o-transition: .3s;
   transition: .3s;
-  width: 20px;
-  height: 20px;
+  width: 1.25rem;
+  height: 1.25rem;
   fill: rgba(255, 255, 255, 0.5); }
 
 .order {
@@ -1126,7 +1133,7 @@ p {
     border-color: #f9b43b; }
 
 .form__textarea {
-  max-height: 110px;
+  max-height: 6.875rem;
   resize: none; }
 
 .form__radio {
@@ -1134,7 +1141,7 @@ p {
   display: -ms-flexbox;
   display: flex; }
   .form__radio:not(:last-child) {
-    margin-right: 20px; }
+    margin-right: 1.25rem; }
 
 .form__radio-btn {
   display: none; }
@@ -1143,22 +1150,22 @@ p {
 
 .form__radio-custom {
   display: block;
-  width: 15px;
-  height: 15px;
-  margin-right: 10px;
+  width: 0.9375rem;
+  height: 0.9375rem;
+  margin-right: 0.625rem;
   background: #fff;
   border-radius: 50%;
   position: relative; }
   .form__radio-custom::after {
     content: "";
     display: none;
-    width: 7px;
-    height: 7px;
+    width: 0.4375rem;
+    height: 0.4375rem;
     background: #e35028;
     border-radius: 50%;
     position: absolute;
-    top: 4px;
-    left: 4px; }
+    top: 0.25rem;
+    left: 0.25rem; }
 
 .form__checkbox {
   display: -webkit-box;
@@ -1173,15 +1180,15 @@ p {
 .form__checkbox-custom {
   display: block;
   position: relative;
-  width: 16px;
-  height: 15px;
-  margin-right: 9px;
+  width: 1rem;
+  height: 0.9375rem;
+  margin-right: 0.5625rem;
   background-color: #fff; }
   .form__checkbox-custom::after {
     content: "";
     display: none;
-    width: 11px;
-    height: 9px;
+    width: 0.6875rem;
+    height: 0.5625rem;
     background: url("./../img/checkbox.png") center no-repeat;
     position: absolute;
     top: 50%;
@@ -1209,7 +1216,7 @@ p {
   flex-direction: column; }
 
 .nav-sidebar__item {
-  margin-bottom: 6px; }
+  margin-bottom: 0.375rem; }
   .nav-sidebar__item:last-child {
     margin-bottom: 0; }
   .nav-sidebar__item--active .nav-sidebar__link::after {
@@ -1226,22 +1233,22 @@ p {
   -ms-flex-align: center;
   align-items: center;
   position: relative;
-  width: 15px;
-  height: 16px; }
+  width: 0.9375rem;
+  height: 1rem; }
   .nav-sidebar__link::before {
     content: "";
     display: block;
     position: absolute;
-    width: 6px;
-    height: 6px;
+    width: 0.375rem;
+    height: 0.375rem;
     background-color: #fff;
     border-radius: 50%; }
   .nav-sidebar__link::after {
     content: "";
     display: block;
     position: absolute;
-    width: 16px;
-    height: 16px;
+    width: 1rem;
+    height: 1rem;
     border: 1px solid #fff;
     border-radius: 50%;
     opacity: 0; }

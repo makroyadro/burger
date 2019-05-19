@@ -1,6 +1,6 @@
 .footer {
-  padding-top: 0.625rem; 
-  padding-bottom: 0.75rem; 
+  padding-top: rem(10px); 
+  padding-bottom: rem(12px); 
   position: absolute;
   bottom: 0;
   left: 0;
@@ -22,18 +22,18 @@
 
 .footer__contacts {
   font-style: normal;
-  font-size: 0.875rem;
+  font-size: rem(14px);
 
   @include phones {
-    margin-bottom: 1.125rem;
-    font-size: 0.875rem;
+    margin-bottom: rem(18px);
+    font-size: rem(14px);
   }
 }
 
 .footer__address {
   color: #fff;
   font-weight: 300;
-  margin-bottom: 10px;
+  margin-bottom: rem(10px);
 }
 
 .footer__phone {
@@ -49,8 +49,8 @@
 }
 
 .footer__phone-icon {
-  width: 12px;
-  height: 11px;
-  margin-right: 10px;
+  width: rem(12px);
+  height: rem(11px);
+  margin-right: rem(10px);
   fill: $tomato;
 }
