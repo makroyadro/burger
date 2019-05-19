@@ -1,0 +1,25 @@
+.social__list {
+  display: flex;
+  justify-content: flex-end;
+} 
+
+.social__item {
+  &:not(:last-child) {
+    margin-right: rem(20px);
+  }
+
+  &:hover {
+    .social__icon {
+      fill: #fff;
+    }
+  }
+} 
+.social__link {
+  display: inline-block;
+}
+.social__icon {
+  transition: .3s;
+  width: rem(20px);
+  height: rem(20px);
+  fill: rgba($color: #fff, $alpha: .5)
+}

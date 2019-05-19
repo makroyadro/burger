@@ -1,30 +1,47 @@
 .section-title {
   font-family: "Gagalin";
-  font-size: 4.5rem;
+  font-size: rem(72px);
   line-height: 1;
   // margin-bottom: 2.8125rem;
-
-  &--color-orange {
-    color: $orange;
-  }
-
-  &--color-black {
-    color: $dark-grey;
-  }
-
-  &--color-white {
-    color: #fff;
-  }
-
-  &--centered {
-    text-align: center;
+  
+  @include phones {
+    font-size: rem(50px);
   }
 
   &--hero {
-    margin-bottom: 1.6rem;;
+    margin-bottom: rem(25.6px);
+    color: $orange;
+
+    @include phones {
+      font-size: rem(72px);
+    }
+  }
+  
+  &--best {
+    margin-bottom: rem(54px);
+    text-align: center;
+
+    @include phones {
+      font-size: rem(56px);
+      margin-bottom: rem(38px);
+    }
+  }
+  
+  &--team {
+    margin-bottom: rem(47px);
+    color: $orange;
   }
 
-  &--best {
-    margin-bottom: 3.375rem;
+  &--menu {
+    color: #fff;
+    position: absolute;
+    top: 15%;
+    left: 7%;
+  }
+  
+  &--order {
+    margin-bottom: rem(44px);
+    color: $orange;
+    text-align: center;
   }
 }

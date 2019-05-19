@@ -1,3 +1,9 @@
+.nav {
+  @include tablets {
+    display: none;
+  }
+}
+
 .nav__list {
   display: flex;
 }
@@ -5,16 +11,16 @@
 .nav__item{
   display: flex;
   align-items: center;
-  margin-right: 1rem;
+  margin-right: rem(16px);
 
   &::after {
     content: "";
     display: block;
-    width: 4px;
-    height: 4px;
+    width: rem(4px);
+    height: rem(4px);
     border-radius: 50%;
     background: #fff;
-    margin-left: 1rem;
+    margin-left: rem(16px);
   }
 
   &:last-child {
@@ -28,7 +34,7 @@
 
 .nav__link {
   display: inline-block;
-  font-size: 0.8125rem;
+  font-size: rem(13px);
   font-weight: 500;
   color: #fff;
   text-decoration: none;

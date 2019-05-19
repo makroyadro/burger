@@ -5,5 +5,9 @@
 .best__list {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 1.8125rem;
+  margin-bottom: rem(29px);
+
+  @include phones {
+  flex-direction: column;
+  }
 }

@@ -1,0 +1,158 @@
+.form {
+  display: flex;
+  
+  @include tablets {
+    flex-direction: column;
+    padding: 0 18.6%;
+  }
+
+  @include tablets {
+    padding: 0;
+  }
+}
+
+.form__col {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+
+  &:not(:last-child) {
+    margin-right: rem(20px);
+  }
+
+  @include tablets {
+    margin-right: 0;
+    width: 100%;
+
+    &:not(:last-child) {
+      margin-bottom: rem(19px);
+    }
+  }
+}
+
+.form__row {
+  display: flex;
+
+  &:not(:first-child) {
+    margin-top: rem(19px);
+  }
+
+  @include tablets {
+    &:last-child {
+      margin-top: rem(25px);
+    }
+  }
+}
+
+.form__row-btn {
+  @include phones {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.form__block {
+  flex: 1;
+  width: 100%;
+
+    &:not(:last-child) {
+      margin-right: rem(20px);
+    }
+}
+
+.form__title {
+  font-size: rem(14px);
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: rem(7px);
+}
+
+.form__field, .form__textarea {
+  width: 100%;
+  padding: rem(9px) rem(21px);
+  font-size: rem(14px);
+  color: $dark-grey;
+  outline: none;
+  border: solid 1px #d1cfcb;
+  border-radius: 5px;
+
+  &:focus {
+    border-color: $orange;
+  }
+}
+
+.form__textarea {
+  max-height: rem(110px);
+  resize: none;
+}
+
+.form__radio {
+  display: flex;
+
+  &:not(:last-child) {
+    margin-right: rem(20px);
+  }
+}
+
+.form__radio-btn {
+  display: none;
+
+  &:checked + .form__radio-custom {
+    &::after {
+      display: block;
+    }
+  }
+}
+
+.form__radio-custom {
+  display: block;
+  width: rem(15px);
+  height: rem(15px);
+  margin-right: rem(10px);
+  background: #fff;
+  border-radius: 50%; 
+  position: relative;
+
+  &::after {
+    content: "";
+    display: none;
+    width: rem(7px);
+    height: rem(7px);
+    background: #e35028;
+    border-radius: 50%; 
+    position: absolute;
+    top: rem(4px);
+    left: rem(4px);
+  }
+}
+
+.form__checkbox {
+  display: flex;
+}
+
+.form__checkbox-btn {
+  display: none;
+  &:checked + .form__checkbox-custom::after {
+    display: block;
+  }
+} 
+.form__checkbox-custom {
+  display: block;
+  position: relative;
+  width: rem(16px);
+  height: rem(15px);
+  margin-right: rem(9px);
+  background-color: #fff;
+
+  &::after {
+    content: "";
+    display: none;
+    width: rem(11px);
+    height: rem(9px);
+    background: url("./../img/checkbox.png") center no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+}

@@ -1,19 +1,35 @@
+// color 
 $dark-grey: #2f3234;
 $orange: #f9b43b;
 $tomato: #e45028;
 
+//breakpoint
+$tablets: 768px;
+$phones: 480px;
+
 @import "layout/normalize";
 @import "layout/fonts";
+@import "layout/mixin";
 @import "layout/layout";
 
 @import "blocks/hero";
 @import "blocks/header";
 @import "blocks/logo";
 @import "blocks/nav";
+@import "blocks/hamburger-menu-link";
 @import "blocks/arrow-scroll";
 @import "blocks/best";
 @import "blocks/features";
 @import "blocks/reviews";
+@import "blocks/team";
+@import "blocks/team-accordeon";
+@import "blocks/menu";
+@import "blocks/menu-accordeon";
+@import "blocks/maps";
+@import "blocks/footer";
+@import "blocks/social";
+@import "blocks/order";
+@import "blocks/form";
 
 @import "blocks/nav-sidebar";
 @import "blocks/section-title";

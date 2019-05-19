@@ -1,0 +1,56 @@
+.footer {
+  padding-top: rem(10px); 
+  padding-bottom: rem(12px); 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000 url("./../img/bg/bg-footer.png") repeat;
+}
+
+.footer__contacts,
+.footer__social {
+  width: 50%;
+
+  @include phones {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+  }
+}
+
+.footer__contacts {
+  font-style: normal;
+  font-size: rem(14px);
+
+  @include phones {
+    margin-bottom: rem(18px);
+    font-size: rem(14px);
+  }
+}
+
+.footer__address {
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: rem(10px);
+}
+
+.footer__phone {
+  display: flex;
+  align-items: center;
+  color: $tomato;
+  font-weight: bold;
+  text-decoration: none;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.footer__phone-icon {
+  width: rem(12px);
+  height: rem(11px);
+  margin-right: rem(10px);
+  fill: $tomato;
+}
