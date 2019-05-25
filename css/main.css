@@ -519,6 +519,9 @@ p {
 .header__btn {
   margin-left: 0.9375rem; }
 
+.logo {
+  z-index: 30; }
+
 .logo__pic {
   width: 5.75rem;
   height: 4.3125rem; }
@@ -645,7 +648,7 @@ p {
     content: "";
     display: block;
     position: absolute;
-    background: #fff;
+    background: #c1c2c2;
     width: 1.5rem;
     height: 0.3125rem;
     border-radius: 3px; }
