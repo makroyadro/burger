@@ -1,0 +1,111 @@
+.burger-comp {
+  display: flex;
+}
+
+.burger-comp__hover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: rem(90px);
+  height: rem(90px);
+  background: rgba(227, 80, 40, .4);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .3s;
+
+  &:hover {
+    background: rgba(227, 80, 40, 1);
+
+    & + .burger-comp__list {
+      opacity: .9;
+    }
+  }
+}
+
+// .burger-comp__icon {}
+
+.burger-comp__icon-pic {
+  width: rem(46px);
+  height: rem(44px);
+  fill: #fff;
+}
+
+.burger-comp__hover-title {
+  font-family: "gagalin";
+  font-size: rem(14px);
+  color: #fff;
+  text-align: center;
+}
+
+.burger-comp__list {
+  background: #fff;
+  opacity: 0;
+  border-radius: 5px;
+  padding: rem(20px);
+  transition: .3s;
+}
+
+.burger-comp__row {
+  &:not(:last-child) {
+    .burger-comp__cell {
+      padding-bottom: rem(19px);
+    }
+  
+  }
+}
+
+.burger-comp__cell {
+  font-family: "ubuntu";
+  font-size: rem(14px);
+
+  &--title {
+    font-weight: 500;
+    padding-left: rem(24px);
+  }
+
+  &--weight {
+    font-weight: 300;
+    padding-left: rem(65px);
+    text-align: right;
+  }
+}
+
+
+.burger-comp__cell-icon {
+  &--beef {
+    width: rem(44px);
+    height: rem(39px);
+    fill: #eb8667;
+  }
+  
+  &--buns {
+    width: rem(48px);
+    height: rem(30px);
+    fill: #f8b43a;
+  }
+  
+  &--salad {
+    width: rem(38px);
+    height: rem(38px);
+    fill: #9ac75b;
+  }
+  
+  &--sauce {
+    width: rem(41px);
+    height: rem(43px);
+    fill: #e25731;
+  }
+  
+  &--cucumber {
+    width: rem(43px);
+    height: rem(37px);
+    fill: #8ac03e;
+  }
+  
+  &--cheese {
+    width: rem(39px);
+    height: rem(34px);
+    fill: #f8b43a;
+  }
+}

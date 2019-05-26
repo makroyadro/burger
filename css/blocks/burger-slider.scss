@@ -1,0 +1,198 @@
+.burger-slider {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  @include phones {
+    justify-content: center;
+  }
+}
+.burger-slider__wrapper {
+  display: flex;
+  align-items: center;
+
+  @include tablets {
+    text-align: center;
+    padding: 7% 12.9% 0 13%;
+  }
+
+  @include phones {
+    padding: 25% 12.9% 0 13%;
+  }
+} 
+
+.burger-slider__left,
+.burger-slider__right {
+  display: block;
+}
+
+.burger-slider__left {
+  position: relative;
+  left: rem(20px);
+  bottom: rem(6px);
+
+  @include tablets {
+    bottom: -0.025rem;
+  }
+}
+.burger-slider__right {
+  position: relative;
+  left: rem(32px);
+  bottom: rem(6px);
+
+  @include tablets {
+    left: -1.3rem;
+    bottom: 0.075rem;
+  }
+}
+
+.burger-slider__left-arrow,
+.burger-slider__right-arrow {
+  width: rem(27px);
+  height: rem(13px);
+  fill: #fff;
+}
+.burger-slider__left-arrow {
+  transform: rotate(90deg);
+}
+
+.burger-slider__right-arrow {
+  transform: rotate(-90deg);
+}
+
+.burger-slider__list {}
+
+.burger-slider__item {
+  position: relative;
+  display: flex;
+
+  @include tablets {
+    flex-direction: column;
+
+  }
+}
+
+.burger-slider__pic {
+  position: absolute;
+  top: rem(-76px);
+  left: rem(32px);
+  
+  @include tablets {
+    top: -4.95rem;
+    left: 0.35rem;
+  }
+
+  @include phones {
+    top: -7.75rem;
+    left: -2.25rem;
+  }
+}
+
+.burger-slider__kkal {
+  position: absolute;
+  bottom: rem(-48px);
+  left: rem(32px);
+  font-family: "gagalin";
+  color: #fff;
+  opacity: .5;
+
+  @include tablets {
+    bottom: auto;
+    left: auto;
+    top: rem(-78px);
+    // top: -5.25rem;
+    right: 1.1rem;
+  }
+
+  @include phones {
+    top: -7.475rem;
+    right: -1.7rem;
+  }
+}
+
+.burger-slider__kkal-icon {
+  width: rem(60px);
+  height: rem(60px);
+  fill: #fff;
+}
+
+.burger-slider__kkal-number {
+  font-size: rem(20px);
+  position: absolute;
+  top: rem(27px);
+  left: rem(14px);
+}
+
+.burger-slider__kkal-text {
+  font-size: rem(14px);
+  position: absolute;
+  bottom: rem(-16px);
+  left: rem(16px);
+}
+
+.burger-slider__photo {
+  margin-right: rem(9px);
+}
+
+.burger-slider__photo-img {
+  max-width: rem(505px);
+
+  @include phones {
+    max-width: rem(450px);  
+  }
+}
+
+.burger-slider__desc {
+  display: flex;
+  flex-direction: column;
+  @include tablets {
+    align-items: center;
+
+  }
+}
+
+// .burger-slider__title {}
+
+.burger-slider__text {
+  font-size: rem(14px);
+  color: #fff;
+  font-weight: 300;
+  line-height: 1.71;
+  margin-bottom: rem(16px);
+  
+  @include tablets {
+    margin-top: rem(56px);
+    margin-bottom: 0;
+  }
+}
+
+.burger-slider__box {
+  display: flex;
+  align-items: flex-end;
+
+  @include tablets {
+    // margin-top: 47px;
+    margin-top: rem(30px);
+    // 2.1375rem
+  }
+}
+
+.burger-slider__price {
+  font-family: "gagalin";
+  color: #e35028;
+
+}
+
+.burger-slider__price-number {
+  font-size: rem(72px);
+}
+
+.burger-slider__price-currency {
+  font-size: rem(30px);
+}
+
+.burger-slider__btn {
+  margin-left: rem(21px);
+  // margin-left: 29px;
+}

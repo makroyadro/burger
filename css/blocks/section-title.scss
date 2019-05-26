@@ -27,6 +27,23 @@
     }
   }
   
+  &--burger-slider {
+    color: #fff;
+    // margin-bottom: rem(82px);
+    position: relative; 
+    bottom: rem(40px);
+    
+    @include tablets {
+      position: static; 
+      bottom: auto;
+      margin-top: rem(26px);
+    }
+
+    @include phones {
+      padding: 0 11% 0 11%;
+    }
+  }
+
   &--team {
     margin-bottom: rem(47px);
     color: $orange;
