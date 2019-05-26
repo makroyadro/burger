@@ -1,0 +1,27 @@
+.menu-cross {
+  display: none;
+  position: absolute;
+  top: rem(32px);
+  right: rem(32px);
+  z-index: 30;
+
+  &::before,
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: #c1c2c2;
+    // opacity: .9;
+    width: rem(24px);
+    height: rem(5px);
+    border-radius: 3px;
+  }
+
+  &::before {
+    transform: rotate(-45deg) ;
+  }
+
+  &::after {
+    transform: rotate(45deg) ;
+  }
+}

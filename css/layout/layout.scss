@@ -62,11 +62,14 @@ p {
   display: flex; 
   flex-direction: column;
   justify-content: center;
-
+  
   &__hero {
     justify-content: flex-start;
   }
-
+  
+  &__burgers {
+    max-width: 1007px;
+  }
 
   &__footer {
     flex-direction: row;
